@@ -9,14 +9,17 @@ The project contains a single test file: `internship-test-logged-in.spec.ts`. Th
 
 ## What is Expected From You
 
-1. **Clone the Repository**  
-   Clone this repository to your local machine using your preferred Git client.
+1. **Fork This Repository**  
+   Click the **Fork** button at the top-right corner of this repository on GitHub to create your own copy under your GitHub account.
 
-2. **Create Your Own Repository**  
-   Once cloned, create a **new public repository** on GitHub and push the cloned project there. You will share this repository with us after completing the task.
+2. **Clone Your Fork**  
+   Clone your forked repository to your local machine:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/REPOSITORY_NAME.git
+   ```
 
-3. **Setup the Framework**  
-   After cloning the project, you need to set up the testing framework by running the following commands in the terminal:
+3. **Set Up the Project**  
+   Navigate to the project directory and run the following commands to set up the testing framework:
    ```bash
    npm install
    npx playwright install
@@ -24,24 +27,28 @@ The project contains a single test file: `internship-test-logged-in.spec.ts`. Th
 
 4. **Run the Tests**  
    You can run the tests in two ways:
-   - Press the green play button in the test file (available in most IDEs such as Visual Studio Code).
-   - Use the command:
+   - Click the green play button next to the test in your IDE (e.g., Visual Studio Code).
+   - Or run the following command in the terminal:
      ```bash
      npx playwright test
      ```
 
-5. **Fix the Tests**  
-   Carefully read through the test file `internship-test-logged-in.spec.ts`. Identify and fix the errors in all three tests. The objective is to ensure all tests pass successfully when executed.
+5. **Fix and Validate**  
+   Debug the file `internship-test-logged-in.spec.ts`, locate the errors in the three tests, and fix them. Ensure all tests pass successfully.
 
 6. **Submit Your Work**  
-   Push your changes to your GitHub repository and share the link to your repository with us.
+   Push your changes to your forked repository:
+   ```bash
+   git add .
+   git commit -m "Fix test errors"
+   git push
+   ```
+   Then, share the link to your forked repository with us.
 
 ## Additional Information
 
-- **Prerequisites**: Ensure you have Node.js and npm installed on your system.
-- **Documentation**: If you need help with Playwright, refer to the [Playwright Documentation](https://playwright.dev/docs/intro).
-- **Support**: For any queries, you can contact the project team.
+- **Prerequisites**: Ensure Node.js and npm are installed on your system.
+- **Playwright Documentation**: Refer to [Playwright Documentation](https://playwright.dev/docs/intro) if needed.
+- **Support**: If you encounter issues, feel free to reach out.
 
-We look forward to seeing your solutions and how you approach this task. Good luck, and happy debugging!
-
----
+We look forward to reviewing your solutions. Good luck and enjoy the challenge!
