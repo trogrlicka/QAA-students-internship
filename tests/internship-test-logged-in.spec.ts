@@ -8,7 +8,6 @@ import { expect, test } from '@playwright/test'
  Pro tip, run your tests in Headed mode to see whats happening in live action https://playwright.dev/docs/running-tests#run-tests-in-headed-mode. Also it might be a good idea to run each test individualy but that up to you. If you feel confident enough to run all 3 in parallel go for it.
 */
 
-//TODO: Remove all test solutions (hint:) before sending to candidates
 test('Navigate to valamar.com & validate page title', async ({ page }) => {
 
   const valamarURL = 'https//valamar.com'
